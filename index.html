@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pet adoption Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logoo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#pets" class="nav-link">PETS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="header.jpg" alt="cat" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Pawsome Meows! </h1>
+          <h2>
+            "What greater gift than the love of a cat!"
+               -Charles Dickens
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Adopt now!
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to Pawsome Meows!, your destination for cat companionship. We are passionate about conectiong loving home with adorable
+            cats in need of forever family. Our dedicated team is committed to ensuring each cat finds their purrfect match. Explore our wide
+            variety of feline friends, from playful kittens to wise seniors. Your new furry family member is just a visit away at our shop.
+            Join us to meet your future homely friend waiting for you!
+          </p>
+          <img src="abt.jpg" alt="about " />
+        </div>
+      </section>
+      <section id="pets" class="sec-padding">
+        <h3 class="section-heading">PETS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="cat1 (1).jpg" alt="photo of amber" />
+            <h4>Amber</h4>
+            <p>
+              This white cold looking cat loves her treats.She is 5 years old but way more mature thn her age.
+              Gain her trust and she'll never leave your side. Calm and composed is her state of mind,a great companion to your
+              grandparents!
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="cat2.jpg"
+              alt="rosy"
+            />
+            <h4>Rosy</h4>
+            <p>
+            You will love our extremely playful rosy. She's the youngest and most energetic out of all.
+            This 10 months old kitten will melt your heart with her headbuts. It would be lovely to see rosy growing 
+            along with your toddler.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="cat3.jpg" alt="photo of tiger" />
+            <h4>Tiger</h4>
+            <p>
+              As his name conveys,he is brave, strong and brother to them all.
+              He is 10 years old and craves affection for the time remaining to him.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="cat4.jpg" alt="photo of winter" />
+            <h4>Winter</h4>
+            <p>
+              With the prettiest eyes and cutest tantrums, 3 months old winter is all that you can wish for!
+            </p>
+          </div>
+          <div class="tile">
+            <img src="cat5.jpg" alt="photo of goldy" />
+            <h4>Goldy</h4>
+            <p>
+              He'll rule your house with his majestic and royal personality.
+              7 years old goldy is that one cat every guest in your would adore. He loves cuddles! 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="cat6.jpg" alt="photo of angela" />
+            <h4>Angela</h4>
+            <p>
+              She's a spicy kitten with most soothing purrs.
+              5 months old angela has to be fed with her favourite treat and you can get to rub her belly in no time!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Healthy</h5>
+              <p>We provide our pets with best medical care they need.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Delivery</h5>
+              <p>
+                Feel that you are far from us?
+            No worries, we deliver our pets to your  home!
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Friendly</h5>
+              <p>
+                We guarantee that our pets are well behaved and super friendly to take care of.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>Want to take these lovlies home? Contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+		2023 © Shelter. All rights reserved.
+    </footer>
+  </body>
+</html>
